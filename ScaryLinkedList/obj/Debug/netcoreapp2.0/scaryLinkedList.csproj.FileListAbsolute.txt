@@ -1,0 +1,21 @@
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.deps.json
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.runtimeconfig.json
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.runtimeconfig.dev.json
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.dll
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.pdb
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.csproj.CoreCompileInputs.cache
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.AssemblyInfoInputs.cache
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.AssemblyInfo.cs
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.dll
+C:/Users/joeyj/OneDrive/Documents/Fall 2017/CMPS390/scaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.pdb
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.deps.json
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.runtimeconfig.json
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.runtimeconfig.dev.json
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.dll
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/bin/Debug/netcoreapp2.0/scaryLinkedList.pdb
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.csprojAssemblyReference.cache
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.csproj.CoreCompileInputs.cache
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.AssemblyInfoInputs.cache
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.AssemblyInfo.cs
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.dll
+/home/jbw716/Development/School/CMPS390/ScaryLinkedList/obj/Debug/netcoreapp2.0/scaryLinkedList.pdb

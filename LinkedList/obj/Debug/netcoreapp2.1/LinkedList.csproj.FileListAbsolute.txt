@@ -1,0 +1,22 @@
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.deps.json
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.runtimeconfig.json
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.runtimeconfig.dev.json
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.dll
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.pdb
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.csprojAssemblyReference.cache
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.csproj.CoreCompileInputs.cache
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.AssemblyInfoInputs.cache
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.AssemblyInfo.cs
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.dll
+C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.pdb
+/home/jbw716/Development/School/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.deps.json
+/home/jbw716/Development/School/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.runtimeconfig.json
+/home/jbw716/Development/School/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.runtimeconfig.dev.json
+/home/jbw716/Development/School/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.dll
+/home/jbw716/Development/School/CMPS390/LinkedList/bin/Debug/netcoreapp2.1/LinkedList.pdb
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.csprojAssemblyReference.cache
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.csproj.CoreCompileInputs.cache
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.AssemblyInfoInputs.cache
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.AssemblyInfo.cs
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.dll
+/home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.pdb
