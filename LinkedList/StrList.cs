@@ -147,7 +147,7 @@ namespace q
                 }
             }
 
-            for (int i = currentArrIndex; i < indexArr[currentIndex+1]; i++)
+            for (int i = currentArrIndex; i < ((getAt(currentArrIndex)[0] == 'z') ? (end + 1) : indexArr[currentIndex+1]); i++)
             {
                 Console.WriteLine(getAt(i));
             }
