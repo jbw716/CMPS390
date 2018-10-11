@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Runtime.ExceptionServices;
 
 namespace q
 {
@@ -10,6 +11,7 @@ namespace q
         private StrNode front;
         private bool empty;
         private int end;
+        public int[] indexArr;
 
         public StrList()
         {
@@ -34,11 +36,13 @@ namespace q
 
         public void printList()
         {
+            Console.WriteLine();
             for (int i = 0; getStrNodeAt(i) != null; i++)
             {
                 Console.Write(getAt(i) + (getStrNodeAt(i + 1) != null ? ", " : ""));
                 
             }
+            Console.WriteLine();
         }
 
         public string getAt(int i)
@@ -101,7 +105,51 @@ namespace q
             else
             {
                 getStrNodeAt(index - 1).setNext(getStrNodeAt(index).getNext());
-                end--;
+            }
+
+            end--;
+        }
+
+        public void index()
+        {
+            List<int> indexArrList = new List<int>();
+
+            indexArrList.Add(0);
+
+            int prevIndex = 0;
+
+            for (int i = 1; i <= 25; i++)
+            {
+                for (int j = prevIndex; j <= end; j++)
+                {
+                    if (getAt(j)[0] != getAt(prevIndex)[0])
+                    {
+                        indexArrList.Add(j);
+                        prevIndex = j;
+                    }
+                }
+            }
+
+            indexArr = indexArrList.ToArray();
+        }
+
+        public void printWithLetter(char letter)
+        {
+            int currentIndex = 0;
+            int currentArrIndex = indexArr[currentIndex];
+            for (int i = 0; i < indexArr.Length; i++)
+            {
+                if (getAt(indexArr[i])[0] == letter)
+                {
+                    currentIndex = i;
+                    currentArrIndex = indexArr[i];
+                    break;
+                }
+            }
+
+            for (int i = currentArrIndex; i < indexArr[currentIndex+1]; i++)
+            {
+                Console.WriteLine(getAt(i));
             }
         }
 
