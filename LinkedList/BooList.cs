@@ -30,7 +30,7 @@ namespace q
             
             //names.sortAlphabetical();
 
-            //names.yetAnotherSort();
+            /////////////////////////////names = names.yetAnotherSort();
             
             Console.WriteLine();
             

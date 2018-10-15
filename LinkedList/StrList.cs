@@ -301,6 +301,7 @@ namespace q
             StrNode current = front;
             int length = end;
             StrNode least = getStrNodeAt(0);
+            int leastIndex = 0;
             for (int i = 0; i <= length; i++)
             {
                 for (int j = 0; j <= end; j++)
@@ -308,9 +309,10 @@ namespace q
                     if (makeNameCode(getAt(j)) < makeNameCode(least.data))
                     {
                         least = getStrNodeAt(j);
-                        delAt(j);
+                        leastIndex = j;
                     }
                 }
+                delAt(leastIndex);
                 returnList.add(least.data);
             }
 
