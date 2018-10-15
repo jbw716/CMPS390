@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_LinkedList.2043509842.00" t="ExcludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+    <e p="C:\Users\jbw716\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jbw716\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_LinkedList.-2106643860.00" t="ExcludeRecursive" />
+    <e p="D:\Programming\CMPS390\LinkedList" t="IncludeRecursive">
       <e p="BabyLinkedList.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
       <e p="BooList.cs" t="Include" />
       <e p="LinkedList.csproj" t="IncludeRecursive" />
       <e p="List.cs" t="Include" />
-      <e p="StrList.cs" t="Include" />
-      <e p="bin" t="ExcludeRecursive" />
       <e p="names.txt" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -19,6 +18,7 @@
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="StrList.cs" t="Include" />
     </e>
   </component>
 </project>

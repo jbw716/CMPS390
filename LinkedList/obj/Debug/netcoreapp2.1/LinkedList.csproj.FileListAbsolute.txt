@@ -20,3 +20,14 @@ C:/Users/jbw71/Documents/School/Computer Science/CMPS390/LinkedList/obj/Debug/ne
 /home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.AssemblyInfo.cs
 /home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.dll
 /home/jbw716/Development/School/CMPS390/LinkedList/obj/Debug/netcoreapp2.1/LinkedList.pdb
+D:\Programming\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.deps.json
+D:\Programming\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.runtimeconfig.json
+D:\Programming\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.runtimeconfig.dev.json
+D:\Programming\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.dll
+D:\Programming\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.pdb
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.csprojAssemblyReference.cache
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.csproj.CoreCompileInputs.cache
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInfoInputs.cache
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInfo.cs
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.dll
+D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.pdb

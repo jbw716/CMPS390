@@ -28,9 +28,9 @@ namespace q
 
             //names = names.otherSort();
             
-            //names.sortAlphabetical();
+            ///////////////////////////////names.sortAlphabetical();
 
-            /////////////////////////////names = names.yetAnotherSort();
+            //names = names.yetAnotherSort();
             
             Console.WriteLine();
             

@@ -322,33 +322,42 @@ namespace q
         
         public void sortAlphabetical()
         {
-            StrNode prev = null;
-            StrNode current = front;
-            StrNode next = current.next;
+            bool loop = true;
             //Console.WriteLine(getStrNodeAt(end).next == null);
             //node before;
-            for (int i = 0; i <= end; i++)
+            while(loop)
             {
-                if(this.makeNameCode(current.data) >= this.makeNameCode(next.data)){
-                    // before = findBefore(current);
-                    //before.next = next;
-                    if (i != 0)
+                StrNode prev = null;
+                StrNode current = front;
+                StrNode next = current.next;
+                loop = false;
+                for (int i = 0; i <= end; i++)
+                {
+                    if (this.makeNameCode(current.data) >= this.makeNameCode(next.data))
                     {
-                        prev.next = next;
-                        current.next = next.next;
-                        next.next = current;
-                    }
-                    else
-                    {
-                        next.next = front;
-                        front = next;
-                    }
-                    //current.data = next.data;
-                }
+                        // before = findBefore(current);
+                        //before.next = next;
+                        if (i != 0)
+                        {
+                            prev.next = next;
+                            current.next = next.next;
+                            next.next = current;
+                        }
+                        else
+                        {
+                            current.next = next.next;
+                            next.next = current;
+                            front = next;
+                        }
 
-                prev = current;
-                current = next;
-                next = current.next;
+                        //current.data = next.data;
+                        loop = true;
+                    }
+
+                    prev = current;
+                    current = next;
+                    next = current.next;
+                }
             }
         }
 
