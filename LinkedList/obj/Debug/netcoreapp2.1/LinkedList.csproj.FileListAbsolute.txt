@@ -31,3 +31,14 @@ D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInf
 D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInfo.cs
 D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.dll
 D:\Programming\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.pdb
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.deps.json
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.runtimeconfig.json
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.runtimeconfig.dev.json
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.dll
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\bin\Debug\netcoreapp2.1\LinkedList.pdb
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.csproj.CoreCompileInputs.cache
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.AssemblyInfo.cs
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.dll
+C:\Users\phweaver\Documents\School\CMPS390\LinkedList\obj\Debug\netcoreapp2.1\LinkedList.pdb

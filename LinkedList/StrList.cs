@@ -34,6 +34,41 @@ namespace q
             end++;
         }
 
+        public void sortAdd(string name)
+        {
+            if (empty)
+            {
+                add(name);
+            }
+            else
+            {
+                bool doIt = true;
+                for (int i = 0; i <= end; i++)
+                {
+                    if (makeNameCode(getAt(i)) > makeNameCode(name))
+                    {
+                        if (i == 0)
+                        {
+                            StrNode tmp = front;
+                            front = new StrNode(name);
+                            front.next = tmp;
+                        }
+                        else
+                        {
+                            insertAfter(i - 1, name);
+                        }
+                        doIt = false;
+                        break;
+                    }
+                }
+
+                if (doIt)
+                {
+                    add(name);
+                }
+            }
+        }
+
         public void printList()
         {
             Console.WriteLine();
@@ -94,6 +129,8 @@ namespace q
             newStrNode.setNext(temp);
             
             workingStrNode.setNext(newStrNode);
+
+            end++;
         }
 
         public void delAt(int index)
@@ -108,6 +145,11 @@ namespace q
             }
 
             end--;
+
+            if (end == -1)
+            {
+                empty = true;
+            }
         }
 
         public void index()
@@ -288,36 +330,42 @@ namespace q
         }
         public int makeNameCode(string name){
             int code = (
-                ((name[0]-'a')*26^2) + 
-                ((name[1]-'a')*26^1) +
-                ((name[2]-'a')*26^0)
+                ((name[0]-'a')*(int)Math.Pow(26, 2)) + 
+                ((name[1]-'a')*(int)Math.Pow(26, 1)) +
+                ((name[2]-'a')*(int)Math.Pow(26, 0))
             );
             return code;
         }
 
-        public StrList yetAnotherSort()
+        public StrList returnSort()
         {
             StrList returnList = new StrList();
-            StrNode current = front;
             int length = end;
-            StrNode least = getStrNodeAt(0);
-            int leastIndex = 0;
             for (int i = 0; i <= length; i++)
             {
+                int leastIndex = 0;
                 for (int j = 0; j <= end; j++)
                 {
-                    if (makeNameCode(getAt(j)) < makeNameCode(least.data))
+                    if (makeNameCode(getAt(j)) < makeNameCode(getAt(leastIndex)))
                     {
-                        least = getStrNodeAt(j);
                         leastIndex = j;
                     }
                 }
+                returnList.add(getAt(leastIndex));
                 delAt(leastIndex);
-                returnList.add(least.data);
             }
 
             return returnList;
 
+        }
+        
+        public void thisSort()
+        {
+            StrList tmp = returnSort();
+            for (int i = 0; i <= tmp.end; i++)
+            {
+                add(tmp.getAt(i));
+            }
         }
         
         public void sortAlphabetical()

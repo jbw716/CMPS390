@@ -681,23 +681,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jbw716\\.nuget\\packages\\": {},
+    "C:\\Users\\phweaver\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\CMPS390\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\LinkedList.csproj",
       "projectName": "LinkedList",
-      "projectPath": "D:\\Programming\\CMPS390\\LinkedList\\LinkedList.csproj",
-      "packagesPath": "C:\\Users\\jbw716\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\CMPS390\\LinkedList\\obj\\",
+      "projectPath": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\LinkedList.csproj",
+      "packagesPath": "C:\\Users\\phweaver\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jbw716\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\phweaver\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
