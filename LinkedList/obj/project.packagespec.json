@@ -1,14 +1,11 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\LinkedList.csproj",
+    "projectUniqueName": "/home/jbw716/Development/School/CMPS390/LinkedList/LinkedList.csproj",
     "projectName": "LinkedList",
-    "projectPath": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\LinkedList.csproj",
-    "outputPath": "C:\\Users\\phweaver\\Documents\\School\\CMPS390\\LinkedList\\obj\\",
+    "projectPath": "/home/jbw716/Development/School/CMPS390/LinkedList/LinkedList.csproj",
+    "outputPath": "/home/jbw716/Development/School/CMPS390/LinkedList/obj/",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
     ],

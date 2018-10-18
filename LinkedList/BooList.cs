@@ -84,7 +84,7 @@ namespace q
             }*/
         }
 
-        public static void delName(string name, StrList names)
+        private static void delName(string name, StrList names)
         {
             bool performed = false;
             int endLoop = names.getEnd();

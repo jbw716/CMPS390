@@ -11,7 +11,7 @@ namespace q
         private StrNode front;
         private bool empty;
         private int end;
-        public int[] indexArr;
+        private int[] indexArr;
 
         public StrList()
         {
@@ -50,8 +50,10 @@ namespace q
                         if (i == 0)
                         {
                             StrNode tmp = front;
-                            front = new StrNode(name);
-                            front.next = tmp;
+                            front = new StrNode(name)
+                            {
+                                next = tmp
+                            };
                         }
                         else
                         {
@@ -93,26 +95,6 @@ namespace q
         public StrNode getStrNodeAt(int i)
         {
             return i > 0 ? getStrNodeAt(--i).getNext() : front;
-            
-            /*if (i > 0)
-            {
-                return getStrNodeAt(--i).getNext();
-            }
-            else
-            {
-                return front;
-            }*/
-            
-            
-
-            /*StrNode Strnode = front;
-            
-            for (int j = 0; j < i; j++)
-            {
-                Strnode = Strnode.getNext();
-            }
-
-            return Strnode;*/
         }
 
         public string findTail()
@@ -232,102 +214,6 @@ namespace q
             }
         }
 
-        public StrList otherSort()
-        {
-            StrList temp = new StrList();
-            for (int i = 0; i < end; i++)
-            {
-                string val = null;
-                int valIndex = 0;
-                for (int j = 0; j < end; j++)
-                {
-                    if (val == null || (val[0] + val[1] + val[2]) <= (getAt(j)[0] + getAt(j)[1] + getAt(j)[2]))
-                    {
-                        val = getAt(j);
-                        valIndex = j;
-                    }
-                }
-                //Console.WriteLine("Deleting " + getAt(valIndex));
-                delAt(valIndex);
-                //Console.WriteLine("Val is " + val);
-                temp.add(val);
-            }
-
-            return temp;
-        }
-
-        public void sortAlpha()
-        {
-            //StrList sorted = new StrList();
-            /*for (int k = 2; k >= 0; k--)
-            {*/
-                int count = 0;
-                for (char j = 'a'; j <= 'z'; j++)
-                {
-                    //Console.WriteLine(j);
-                    for (int i = 0; i <= end; i++)
-                    {
-                        //if(j == 'b') Console.WriteLine(getAt(i) + " starts with " + j + " is " + (getAt(i).StartsWith(j)));
-                        //if (getAt(i)[k] == j)
-                        if(getAt(i).StartsWith(j))
-                        {
-                            //Console.WriteLine(getAt(i));
-                            string temp = getAt(count);
-                            setAt(count, getAt(i));
-                            count++;
-                            setAt(i, temp);
-                        }
-                    }
-                }
-            //}
-
-            bool loop = true;
-            
-            while (loop)
-            {
-                loop = false;
-                for (int i = 0; i <= end; i++)
-                {
-                    StrNode checkPrev = getStrNodeAt(i - 1);
-                    StrNode check = getStrNodeAt(i);
-                    StrNode checkNext = getStrNodeAt(i).getNext();
-                    //StrNode nextNext = getStrNodeAt(i + 1).getNext();
-                    if (checkNext != null && ((checkNext.getData()[0] + checkNext.getData()[1] + checkNext.getData()[2]) < (check.getData()[0] + check.getData()[1] + check.getData()[2])))
-                    {
-                        loop = true;
-                        /*StrNode temp = getStrNodeAt(i).getNext().getNext();
-                        getStrNodeAt(i).getNext().setNext(getStrNodeAt(i));
-                        getStrNodeAt(i).setNext(temp);*/
-                        
-                        
-                        /*getStrNodeAt(i-1).setNext(getStrNodeAt(i).getNext());
-                        getStrNodeAt(i).setNext(getStrNodeAt(i+1).getNext());
-                        getStrNodeAt(i+1).setNext(getStrNodeAt(i));*/
-                        
-                        
-                        /*getStrNodeAt(i+1).setNext(check);
-                        getStrNodeAt(i).setNext(nextNext);
-                        getStrNodeAt(i-1).setNext(checkNext);*/
-
-                        string tmp = getAt(i);
-                        getStrNodeAt(i).set(getAt(i+1));
-                        getStrNodeAt(i+1).set(tmp);
-                    }
-                }
-            }
-
-            /*for (int i = 0; i <= end; i++)
-            {
-                if (getStrNodeAt(i).getNext() != null && getAt(i).StartsWith(getAt(i + 1)))
-                {
-                    string temp = getAt(i + 1);
-                    setAt(i+1, getAt(i));
-                    setAt(i, temp);
-                }
-            }*/
-
-            //Console.WriteLine("\n\n");
-        }
         public int makeNameCode(string name){
             int code = (
                 ((name[0]-'a')*(int)Math.Pow(26, 2)) + 
@@ -340,8 +226,8 @@ namespace q
         public StrList returnSort()
         {
             StrList returnList = new StrList();
-            int length = end;
-            for (int i = 0; i <= length; i++)
+            //int length = end;
+            for (int i = 0, loop = end; i <= loop; i++)
             {
                 int leastIndex = 0;
                 for (int j = 0; j <= end; j++)
@@ -362,50 +248,9 @@ namespace q
         public void thisSort()
         {
             StrList tmp = returnSort();
-            for (int i = 0; i <= tmp.end; i++)
+            for (int i = 0; i <= tmp.getEnd(); i++)
             {
                 add(tmp.getAt(i));
-            }
-        }
-        
-        public void sortAlphabetical()
-        {
-            bool loop = true;
-            //Console.WriteLine(getStrNodeAt(end).next == null);
-            //node before;
-            while(loop)
-            {
-                StrNode prev = null;
-                StrNode current = front;
-                StrNode next = current.next;
-                loop = false;
-                for (int i = 0; i <= end; i++)
-                {
-                    if (this.makeNameCode(current.data) >= this.makeNameCode(next.data))
-                    {
-                        // before = findBefore(current);
-                        //before.next = next;
-                        if (i != 0)
-                        {
-                            prev.next = next;
-                            current.next = next.next;
-                            next.next = current;
-                        }
-                        else
-                        {
-                            current.next = next.next;
-                            next.next = current;
-                            front = next;
-                        }
-
-                        //current.data = next.data;
-                        loop = true;
-                    }
-
-                    prev = current;
-                    current = next;
-                    next = current.next;
-                }
             }
         }
 
