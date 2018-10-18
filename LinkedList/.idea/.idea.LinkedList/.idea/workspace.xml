@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02e02ce-003a-41e8-b333-d8adc319b1ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BooList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BooList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StrList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LinkedList/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,17 +14,18 @@
     <session id="-1761301172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,10 +141,9 @@
         <entry file="file://$PROJECT_DIR$/StrList.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <marker date="1539869565987" expanded="false" signature="6:73" ph="..." />
-                <marker date="1539869565987" expanded="true" signature="86:7300" ph="{...}" />
                 <marker date="1539869565987" expanded="true" signature="113:6623" ph="{...}" />
                 <marker date="1539869565987" expanded="true" signature="261:329" ph="{...}" />
                 <marker date="1539869565987" expanded="true" signature="364:630" ph="{...}" />
@@ -269,7 +268,7 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -367,11 +366,12 @@
       <workItem from="1539790174771" duration="4118000" />
       <workItem from="1539867803734" duration="1169000" />
       <workItem from="1539869080935" duration="569000" />
+      <workItem from="1539869880622" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42344000" />
+    <option name="totallyTimeSpent" value="42511000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +386,7 @@
     <frame x="0" y="-2" width="3200" height="1736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1807074" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18327974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -458,10 +458,9 @@
     <entry file="file://$PROJECT_DIR$/StrList.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <marker date="1539869565987" expanded="false" signature="6:73" ph="..." />
-            <marker date="1539869565987" expanded="true" signature="86:7300" ph="{...}" />
             <marker date="1539869565987" expanded="true" signature="113:6623" ph="{...}" />
             <marker date="1539869565987" expanded="true" signature="261:329" ph="{...}" />
             <marker date="1539869565987" expanded="true" signature="364:630" ph="{...}" />
@@ -526,7 +525,6 @@
         <state relative-caret-position="667">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1539869188544" expanded="true" signature="26:2939" ph="{...}" />
             <marker date="1539869188544" expanded="true" signature="60:2937" ph="{...}" />
             <marker date="1539869188544" expanded="true" signature="113:2262" ph="{...}" />
             <marker date="1539869188544" expanded="true" signature="433:533" ph="{...}" />
