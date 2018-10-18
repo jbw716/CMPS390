@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace q
 {
@@ -238,6 +239,29 @@ namespace q
             }
 
             return returnList;
+
+        }
+        
+        public void bubbleThisSort()
+        {
+            bool swapping = true;
+            while(swapping)
+            {
+                swapping = false;
+                for (int j = 0; j <= end-1; j++)
+                {
+                    if (makeNameCode(getAt(j)) > makeNameCode(getAt(j+1)))
+                    {
+                        swapping = true;
+
+                        string tmp = getAt(j);
+                        
+                        setAt(j, getAt(j+1));
+                        
+                        setAt(j+1, tmp);
+                    }
+                }
+            }
 
         }
         

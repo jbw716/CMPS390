@@ -24,7 +24,9 @@ namespace q
 
             //names = names.returnSort();
             
-            names.thisSort();
+            //names.thisSort();
+            
+            names.bubbleThisSort();
             
             Console.WriteLine();
 
