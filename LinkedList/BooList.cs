@@ -2,7 +2,7 @@ using System;
 
 namespace q
 {
-    public class BooList
+    public static class BooList
     {
         public static void Main(string[] args)
         {
@@ -12,37 +12,21 @@ namespace q
             
             StrList names = new StrList();
 
-            //string[] nameArr = System.IO.File.ReadAllLines(file);
-
             foreach (var name in System.IO.File.ReadAllLines(file))
             {
                 names.add(name);
-                ////////////////////////////////////////////names.sortAdd(name);
+                //names.sortAdd(name);
             }
-            
-            
-            /*Console.WriteLine(names.makeNameCode("ghassan"));
-            Console.WriteLine(names.makeNameCode("clarence"));
-            Console.WriteLine(names.makeNameCode("jeremiah"));*/
-
-            //StrList sorted = names.sortAlpha();
-            //names.sortAlpha();
             
             //names.lazySort();
 
-            /////////////////////////////////////////////////////////////////////////////names = names.yuckSort();
-
-            //names = names.otherSort();
-            
-            ///////////////////////////////names.sortAlphabetical();
+            //names = names.yuckSort();
 
             //names = names.returnSort();
             
             names.thisSort();
             
             Console.WriteLine();
-            
-            //Console.WriteLine(names.getAt(72));
 
             bool end = false;
 

@@ -1,8 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Runtime.ExceptionServices;
 
 namespace q
 {
@@ -50,10 +48,8 @@ namespace q
                         if (i == 0)
                         {
                             StrNode tmp = front;
-                            front = new StrNode(name)
-                            {
-                                next = tmp
-                            };
+                            front = new StrNode(name);
+                            front.setNext(tmp);
                         }
                         else
                         {
@@ -266,8 +262,9 @@ namespace q
 
     public class StrNode
     {
-        public string data;
-        public StrNode next;
+        private string data;
+        private StrNode next;
+        
         public StrNode(string d)
         {
             data = d;
