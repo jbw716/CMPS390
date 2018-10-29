@@ -14,8 +14,8 @@ namespace q
 
             foreach (var name in System.IO.File.ReadAllLines(file))
             {
-                names.add(name);
-                //names.sortAdd(name);
+                //names.add(name);
+                names.sortAdd(name);
             }
             
             //names.lazySort();
@@ -26,7 +26,7 @@ namespace q
             
             //names.thisSort();
             
-            names.bubbleThisSort();
+            ////////////////////////////names.bubbleThisSort();
             
             Console.WriteLine();
 

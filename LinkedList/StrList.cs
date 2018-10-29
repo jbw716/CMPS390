@@ -51,6 +51,7 @@ namespace q
                             StrNode tmp = front;
                             front = new StrNode(name);
                             front.setNext(tmp);
+                            end++;
                         }
                         else
                         {
