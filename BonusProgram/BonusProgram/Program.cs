@@ -7,7 +7,7 @@ namespace BonusProgram
 {
     class Program
     {
-        public static int comps = 0;
+        public static int comps;
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the number sorter!\nPlease enter the file from which you would like to use the numbers from. -> ");
