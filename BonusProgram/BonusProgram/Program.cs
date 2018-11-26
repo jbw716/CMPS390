@@ -34,9 +34,9 @@ namespace BonusProgram
             
             Console.WriteLine("Sort completed with " + comps + " comparisons.\n");
 
-            //int[] bubbleSortedArr = bubble(nums);
+            int[] bubbleSortedArr = bubble(nums);
             
-            Console.WriteLine("The normal bubble sort required 25116510 comparisons. Take my word for it... You don't want to wait for that mess.\n");
+            //Console.WriteLine("The normal bubble sort required 25116510 comparisons. Take my word for it... You don't want to wait for that mess.\n");
 
             int[] bubbleMergedArr = bubbleMerge(nums);
             
