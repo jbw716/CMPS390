@@ -45,6 +45,8 @@ namespace BonusProgram
                 bool doIt = true;
                 for (int i = 0; i <= end; i++)
                 {
+                    comps++;
+                    
                     if (getAt(i) > name)
                     {
                         if (i == 0)
@@ -61,8 +63,6 @@ namespace BonusProgram
                         doIt = false;
                         break;
                     }
-
-                    comps++;
                 }
 
                 if (doIt)
@@ -197,7 +197,7 @@ namespace BonusProgram
         public int[] ToArray()
         {
             ArrayList returnArr = new ArrayList();
-            for (int i = 0; i < end; i++)
+            for (int i = 0; i <= end; i++)
             {
                 returnArr.Add(getAt(i));
             }

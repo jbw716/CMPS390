@@ -7,7 +7,8 @@ namespace BonusProgram
 {
     class Program
     {
-        public static int comps;
+        public static int comps = 0;
+        public static int mergeComps = 0;
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the number sorter!\nPlease enter the file from which you would like to use the numbers from. -> ");
@@ -17,13 +18,6 @@ namespace BonusProgram
             string file = "numbers10000.txt";
             
             Console.WriteLine();
-            
-            /*List temp = new List();
-
-            foreach (string num in File.ReadAllLines(file))
-            {
-                temp.add(int.Parse(num));
-            }*/
 
             string[] nums = File.ReadAllLines(file);
             
@@ -42,7 +36,14 @@ namespace BonusProgram
 
             //int[] bubbleSortedArr = bubble(nums);
             
-            Console.WriteLine("The normal bubble sort required 25116510 comparisons. Take my word for it... You don't want to wait for that mess.");
+            Console.WriteLine("The normal bubble sort required 25116510 comparisons. Take my word for it... You don't want to wait for that mess.\n");
+
+            int[] bubbleMergedArr = bubbleMerge(nums);
+            
+            /*foreach (int num in bubbleMergedArr)
+            {
+                Console.Write(num + ((num != bubbleMergedArr[bubbleMergedArr.Length-1]) ? ", ":"\n"));
+            }*/
         }
 
         public static int[] bubble(string[] nums)
@@ -72,6 +73,202 @@ namespace BonusProgram
             Console.WriteLine("The normal bubble sort required " + bubble.getComps() + " comparisons.");
 
             return bubble.ToArray();
+        }
+
+        public static int[] bubbleMerge(string[] nums)
+        {
+            List one = new List();
+            
+            List two = new List();
+            
+            List three = new List();
+            
+            List four = new List();
+            
+            List five = new List();
+
+            int counter = 0;
+
+            for (int i = 0; i < 2000; i++)
+            {
+                one.sortAdd(int.Parse(nums[i].Trim()));
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            for (int i = 2000; i < 4000; i++)
+            {
+                two.sortAdd(int.Parse(nums[i].Trim()));
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            for (int i = 4000; i < 6000; i++)
+            {
+                three.sortAdd(int.Parse(nums[i].Trim()));
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            for (int i = 6000; i < 8000; i++)
+            {
+                four.sortAdd(int.Parse(nums[i].Trim()));
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            for (int i = 8000; i < 10000; i++)
+            {
+                five.sortAdd(int.Parse(nums[i].Trim()));
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            Console.WriteLine("\nCompleted sorting 5 sections of numbers.\nPreparing to merge.\n");
+
+            /*counter = 0;
+            
+            List final = new List();
+
+            foreach (int num in one.ToArray())
+            {
+                final.sortAdd(num);
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            foreach (int num in two.ToArray())
+            {
+                final.sortAdd(num);
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            foreach (int num in three.ToArray())
+            {
+                final.sortAdd(num);
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            foreach (int num in four.ToArray())
+            {
+                final.sortAdd(num);
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            foreach (int num in five.ToArray())
+            {
+                final.sortAdd(num);
+                
+                counter++;
+
+                if ((counter + 1) / 100 != counter / 100)
+                {
+                    Console.WriteLine(((counter + 1) / 100) + "%");
+                }
+            }
+            
+            Console.WriteLine("The Bubble Merge sort took " + (one.getComps() + two.getComps() + three.getComps() + four.getComps() + five.getComps() + final.getComps()) + " comparisons.");
+
+            return final.ToArray();*/
+            
+            //int[] returnArr = merge(merge(merge(one.ToArray(), two.ToArray()), merge(three.ToArray(), four.ToArray())), five.ToArray());
+            
+            Console.WriteLine("0%");
+
+            int[] tmp = merge(one.ToArray(), two.ToArray());
+
+            Console.WriteLine("25%");
+
+            tmp = merge(tmp, three.ToArray());
+
+            Console.WriteLine("50%");
+
+            tmp = merge(tmp, four.ToArray());
+
+            Console.WriteLine("75%");
+
+            int[] returnArr= merge(tmp, five.ToArray());
+            
+            Console.WriteLine("100%");
+            
+            Console.WriteLine("The Bubble Merge sort took " + (one.getComps() + two.getComps() + three.getComps() + four.getComps() + five.getComps() + mergeComps) + " comparisons.");
+
+            return returnArr;
+        }
+
+        public static int[] merge(int[] one, int[] two)
+        {
+            int i = 0;
+            int j = 0;
+            List returnList = new List();
+            while (i < one.Length && j < two.Length)
+            {
+                mergeComps++;
+                if (one[i] <= two[j])
+                {
+                    returnList.add(one[i++]);
+                }
+                else
+                {
+                    returnList.add(two[j++]);
+                }
+            }
+
+            while (i < one.Length)
+            {
+                returnList.add(one[i++]);
+            }
+            
+            while (j < two.Length)
+            {
+                returnList.add(two[j++]);
+            }
+
+            return returnList.ToArray();
         }
 
         public static int[] radix(string[] nums)
@@ -121,11 +318,6 @@ namespace BonusProgram
             Console.WriteLine("\nDivided numbers by number of digits!\n");
 
             List final = new List();
-
-            /*foreach (int num in oneDigit.ToArray())
-            {
-                //Console.WriteLine(num);
-            }*/
             
             Console.WriteLine("0%");
 
@@ -163,37 +355,7 @@ namespace BonusProgram
             
             Console.WriteLine("Numbers sorted!");
 
-            /*int[] arrOne = oneDigit.ToArray();
-
-            foreach (int num in arrOne)
-            {
-                final.add(num);
-            }
-
-            int[] arrTwo = twoDigit.ToArray();
-
-            foreach (int num in arrTwo)
-            {
-                final.add(num);
-            }
-
-            int[] arrThree = threeDigit.ToArray();
-
-            foreach (int num in arrThree)
-            {
-                final.add(num);
-            }
-
-            int[] arrFour = fourDigit.ToArray();
-
-            foreach (int num in arrFour)
-            {
-                final.add(num);
-            }*/
-
             int[] sortedArr = final.ToArray();
-            
-            //Console.WriteLine("Sort completed with " + (oneDigit.getComps() + twoDigit.getComps() + threeDigit.getComps() + fourDigit.getComps()) + " comparisons.");
 
             return sortedArr;
         }
@@ -212,14 +374,9 @@ namespace BonusProgram
                 {
                     for (int i = 0; i < hold.Length; i++)
                     {
-                        //Console.WriteLine(digits);
                         if ((hold[i].ToString().ToCharArray()[digits]-48) == j)
                         {
-                            //tmp.add(hold[i]);
-
                             tmp[tmpCount++] = hold[i];
-
-                            //Console.WriteLine(arr[i]);
 
                         }
 
