@@ -1,0 +1,11 @@
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.deps.json
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.runtimeconfig.json
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.runtimeconfig.dev.json
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.dll
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.pdb
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.csprojAssemblyReference.cache
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.csproj.CoreCompileInputs.cache
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.AssemblyInfoInputs.cache
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.AssemblyInfo.cs
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.dll
+/home/jbw716/Development/School/CMPS390/BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.pdb

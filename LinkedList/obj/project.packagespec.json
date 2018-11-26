@@ -6,6 +6,9 @@
     "projectPath": "/home/jbw716/Development/School/CMPS390/LinkedList/LinkedList.csproj",
     "outputPath": "/home/jbw716/Development/School/CMPS390/LinkedList/obj/",
     "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
     "originalTargetFrameworks": [
       "netcoreapp2.1"
     ],

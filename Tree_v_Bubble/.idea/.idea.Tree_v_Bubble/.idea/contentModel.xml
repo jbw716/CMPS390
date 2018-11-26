@@ -9,6 +9,7 @@
       <e p="Tree.cs" t="Include" />
       <e p="Tree_v_Bubble.csproj" t="IncludeRecursive" />
       <e p="Tree_v_Bubble.sln" t="IncludeFlat" />
+      <e p="Tree_v_Bubble.zip" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="numbers.txt" t="Include" />
       <e p="obj" t="ExcludeRecursive">

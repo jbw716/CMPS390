@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d02e02ce-003a-41e8-b333-d8adc319b1ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tree_v_Bubble/List.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/LinkedList.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/LinkedList.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/LinkedList.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/LinkedList.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/LinkedList.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/LinkedList.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScaryLinkedList/.idea/.idea.scaryLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScaryLinkedList/.idea/.idea.scaryLinkedList/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/Tree.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/Tree.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/output.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +27,13 @@
     <session id="-1761301172">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
@@ -38,7 +41,7 @@
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="9" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -108,11 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/List.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="406">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <marker date="1538364070000" expanded="true" signature="26:2379" ph="{...}" />
                 <marker date="1538364070000" expanded="true" signature="50:1816" ph="{...}" />
@@ -146,7 +149,6 @@
             <state relative-caret-position="203">
               <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
-                <marker date="1538756017338" expanded="true" signature="26:3133" ph="{...}" />
                 <marker date="1538756017338" expanded="true" signature="60:3131" ph="{...}" />
                 <marker date="1538756017338" expanded="true" signature="115:3124" ph="{...}" />
                 <marker date="1538756017338" expanded="true" signature="191:336" ph="/* myList.add(1); ... */" />
@@ -158,13 +160,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BooList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="609">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <marker date="1540313627665" expanded="true" signature="26:3018" ph="{...}" />
                 <marker date="1540313627665" expanded="true" signature="60:3016" ph="{...}" />
                 <marker date="1540313627665" expanded="true" signature="113:2341" ph="{...}" />
                 <marker date="1540313627665" expanded="true" signature="433:533" ph="{...}" />
@@ -185,8 +186,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StrList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+            <state relative-caret-position="1044">
+              <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
               <folding>
                 <marker date="1540314281519" expanded="false" signature="6:101" ph="..." />
                 <marker date="1540314281519" expanded="true" signature="114:7984" ph="{...}" />
@@ -290,9 +291,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
+    <option name="y" value="-2" />
     <option name="width" value="3200" />
-    <option name="height" value="1738" />
+    <option name="height" value="1736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,6 +301,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -312,7 +314,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,11 +426,13 @@
       <workItem from="1540331001045" duration="76000" />
       <workItem from="1540818102703" duration="22000" />
       <workItem from="1540862014271" duration="1290000" />
+      <workItem from="1542297300354" duration="612000" />
+      <workItem from="1543177900287" duration="1068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49667000" />
+    <option name="totallyTimeSpent" value="51347000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,9 +445,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="3200" height="1736" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20128617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20707396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -499,40 +501,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/List.cs">
+    <entry file="file://$PROJECT_DIR$/BabyLinkedList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="203">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
-            <marker date="1538364070000" expanded="true" signature="26:2379" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="50:1816" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="160:228" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="260:517" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="293:389" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="406:487" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="550:752" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="615:742" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="785:848" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="886:1276" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="920:997" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="1014:1072" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="1098:1266" ph="/* Node node = front; ... */" />
-            <marker date="1538364070000" expanded="true" signature="1307:1358" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="1421:1684" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="1722:1810" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="1989:2377" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="2075:2142" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="2173:2218" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="2254:2296" ph="{...}" />
-            <marker date="1538364070000" expanded="true" signature="2326:2371" ph="{...}" />
+            <marker date="1538756017338" expanded="true" signature="60:3131" ph="{...}" />
+            <marker date="1538756017338" expanded="true" signature="115:3124" ph="{...}" />
+            <marker date="1538756017338" expanded="true" signature="191:336" ph="/* myList.add(1); ... */" />
+            <marker date="1538756017338" expanded="true" signature="578:637" ph="{...}" />
+            <marker date="1538756017338" expanded="true" signature="694:3114" ph="{...}" />
+            <marker date="1538756017338" expanded="true" signature="1122:3062" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BooList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1540313627665" expanded="true" signature="60:3016" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="113:2341" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="433:533" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="559:784" ph="/* names.lazySort(); ... */" />
+            <marker date="1540313627665" expanded="true" signature="887:2193" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="1203:2179" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="2207:2331" ph="/* for (int i = 0; i &lt;= names.getEnd(); i++) ... */" />
+            <marker date="1540313627665" expanded="true" signature="2406:3010" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="2541:2754" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="2599:2740" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="2783:2877" ph="{...}" />
+            <marker date="1540313627665" expanded="true" signature="2894:3000" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StrList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="239" column="13" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+        <state relative-caret-position="1044">
+          <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
           <folding>
             <marker date="1540314281519" expanded="false" signature="6:101" ph="..." />
             <marker date="1540314281519" expanded="true" signature="114:7984" ph="{...}" />
@@ -599,40 +607,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BabyLinkedList.cs">
+    <entry file="file://$PROJECT_DIR$/List.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="406">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <marker date="1538756017338" expanded="true" signature="26:3133" ph="{...}" />
-            <marker date="1538756017338" expanded="true" signature="60:3131" ph="{...}" />
-            <marker date="1538756017338" expanded="true" signature="115:3124" ph="{...}" />
-            <marker date="1538756017338" expanded="true" signature="191:336" ph="/* myList.add(1); ... */" />
-            <marker date="1538756017338" expanded="true" signature="578:637" ph="{...}" />
-            <marker date="1538756017338" expanded="true" signature="694:3114" ph="{...}" />
-            <marker date="1538756017338" expanded="true" signature="1122:3062" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BooList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <marker date="1540313627665" expanded="true" signature="26:3018" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="60:3016" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="113:2341" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="433:533" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="559:784" ph="/* names.lazySort(); ... */" />
-            <marker date="1540313627665" expanded="true" signature="887:2193" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="1203:2179" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="2207:2331" ph="/* for (int i = 0; i &lt;= names.getEnd(); i++) ... */" />
-            <marker date="1540313627665" expanded="true" signature="2406:3010" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="2541:2754" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="2599:2740" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="2783:2877" ph="{...}" />
-            <marker date="1540313627665" expanded="true" signature="2894:3000" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="26:2379" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="50:1816" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="160:228" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="260:517" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="293:389" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="406:487" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="550:752" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="615:742" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="785:848" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="886:1276" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="920:997" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="1014:1072" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="1098:1266" ph="/* Node node = front; ... */" />
+            <marker date="1538364070000" expanded="true" signature="1307:1358" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="1421:1684" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="1722:1810" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="1989:2377" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="2075:2142" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="2173:2218" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="2254:2296" ph="{...}" />
+            <marker date="1538364070000" expanded="true" signature="2326:2371" ph="{...}" />
           </folding>
         </state>
       </provider>

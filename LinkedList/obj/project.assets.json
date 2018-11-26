@@ -682,7 +682,8 @@
     ]
   },
   "packageFolders": {
-    "/home/jbw716/.nuget/packages/": {}
+    "/home/jbw716/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -693,6 +694,9 @@
       "packagesPath": "/home/jbw716/.nuget/packages/",
       "outputPath": "/home/jbw716/Development/School/CMPS390/LinkedList/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/home/jbw716/.config/NuGet/NuGet.Config"
       ],

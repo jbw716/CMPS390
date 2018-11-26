@@ -1,0 +1,11 @@
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/bin/Debug/netcoreapp2.1/HashProject.deps.json
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/bin/Debug/netcoreapp2.1/HashProject.runtimeconfig.json
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/bin/Debug/netcoreapp2.1/HashProject.runtimeconfig.dev.json
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/bin/Debug/netcoreapp2.1/HashProject.dll
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/bin/Debug/netcoreapp2.1/HashProject.pdb
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.csprojAssemblyReference.cache
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.csproj.CoreCompileInputs.cache
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.AssemblyInfoInputs.cache
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.AssemblyInfo.cs
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.dll
+/home/jbw716/Development/School/CMPS390/HashProject/HashProject/obj/Debug/netcoreapp2.1/HashProject.pdb
