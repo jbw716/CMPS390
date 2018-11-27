@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da04e18-0bbc-421c-a568-e3278590b564" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../LinkedList/.idea/.idea.LinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/.idea/.idea.LinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/obj/Debug/netcoreapp2.1/LinkedList.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/obj/Debug/netcoreapp2.1/LinkedList.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/obj/LinkedList.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/obj/LinkedList.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/obj/LinkedList.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/obj/LinkedList.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LinkedList/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ScaryLinkedList/.idea/.idea.scaryLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScaryLinkedList/.idea/.idea.scaryLinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/.idea/.idea.Tree_v_Bubble/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/bin/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/obj/Debug/netcoreapp2.1/Tree_v_Bubble.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tree_v_Bubble/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree_v_Bubble/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/.idea/.idea.BonusProgram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/.idea/.idea.BonusProgram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/StrList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/StrList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/bin/Debug/netcoreapp2.1/BonusProgram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../BonusProgram/BonusProgram/obj/Debug/netcoreapp2.1/BonusProgram.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HashProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HashProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashProject/HashTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HashProject/HashTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashProject/bin/Debug/netcoreapp2.1/HashProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HashProject/bin/Debug/netcoreapp2.1/HashProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashProject/bin/Debug/netcoreapp2.1/HashProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HashProject/bin/Debug/netcoreapp2.1/HashProject.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashProject/obj/Debug/netcoreapp2.1/HashProject.dll" beforeDir="false" afterPath="$PROJECT_DIR$/HashProject/obj/Debug/netcoreapp2.1/HashProject.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HashProject/obj/Debug/netcoreapp2.1/HashProject.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/HashProject/obj/Debug/netcoreapp2.1/HashProject.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,12 +26,12 @@
     <session id="594969529">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,23 +48,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1522" />
+          <entry key="cs" value="1565" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1522" />
+          <entry key="C#" value="1565" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HashProject/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="611">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <marker date="1542586044410" expanded="false" signature="6:113" ph="..." />
                 <marker date="1542586044410" expanded="true" signature="136:1573" ph="{...}" />
@@ -82,25 +81,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HashProject/HashTable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1102">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state relative-caret-position="261">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding>
-                <marker date="1542678583064" expanded="false" signature="6:47" ph="..." />
-                <marker date="1542678583064" expanded="true" signature="99:1758" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="235:339" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="378:618" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="660:1413" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="742:1053" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1079:1146" ph="/* code = code / 90; ... */" />
-                <marker date="1542678583064" expanded="true" signature="1172:1372" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1239:1302" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1446:1665" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1497:1655" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1560:1641" ph="{...}" />
-                <marker date="1542678583064" expanded="true" signature="1701:1752" ph="{...}" />
+                <marker date="1543339152489" expanded="false" signature="6:47" ph="..." />
+                <marker date="1543339152489" expanded="true" signature="70:1809" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="99:1807" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="235:339" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="378:618" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="660:1462" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="772:1102" ph="/* switch (length) ... */" />
+                <marker date="1543339152489" expanded="true" signature="1128:1195" ph="/* code = code / 90; ... */" />
+                <marker date="1543339152489" expanded="true" signature="1221:1421" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="1288:1351" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="1495:1714" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="1546:1704" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="1609:1690" ph="{...}" />
+                <marker date="1543339152489" expanded="true" signature="1750:1801" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -128,8 +128,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/HashProject/input.txt" />
-        <option value="$PROJECT_DIR$/HashProject/HashTable.cs" />
         <option value="$PROJECT_DIR$/HashProject/Program.cs" />
+        <option value="$PROJECT_DIR$/HashProject/HashTable.cs" />
       </list>
     </option>
   </component>
@@ -150,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -168,6 +167,7 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,11 +227,12 @@
       <workItem from="1542574286922" duration="3329000" />
       <workItem from="1542677417718" duration="1242000" />
       <workItem from="1543082591232" duration="977000" />
+      <workItem from="1543338233087" duration="1576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9302000" />
+    <option name="totallyTimeSpent" value="10878000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,7 +247,7 @@
     <frame x="0" y="-2" width="3200" height="1736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2630225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26655948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -292,8 +293,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HashProject/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="611">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <marker date="1542586044410" expanded="false" signature="6:113" ph="..." />
             <marker date="1542586044410" expanded="true" signature="136:1573" ph="{...}" />
@@ -309,32 +310,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HashProject/HashTable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-          <folding>
-            <marker date="1542678583064" expanded="false" signature="6:47" ph="..." />
-            <marker date="1542678583064" expanded="true" signature="99:1758" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="235:339" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="378:618" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="660:1413" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="742:1053" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1079:1146" ph="/* code = code / 90; ... */" />
-            <marker date="1542678583064" expanded="true" signature="1172:1372" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1239:1302" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1446:1665" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1497:1655" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1560:1641" ph="{...}" />
-            <marker date="1542678583064" expanded="true" signature="1701:1752" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HashProject/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HashProject/HashTable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <marker date="1543339152489" expanded="false" signature="6:47" ph="..." />
+            <marker date="1543339152489" expanded="true" signature="70:1809" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="99:1807" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="235:339" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="378:618" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="660:1462" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="772:1102" ph="/* switch (length) ... */" />
+            <marker date="1543339152489" expanded="true" signature="1128:1195" ph="/* code = code / 90; ... */" />
+            <marker date="1543339152489" expanded="true" signature="1221:1421" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="1288:1351" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="1495:1714" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="1546:1704" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="1609:1690" ph="{...}" />
+            <marker date="1543339152489" expanded="true" signature="1750:1801" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

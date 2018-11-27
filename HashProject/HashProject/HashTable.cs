@@ -31,7 +31,9 @@ namespace HashProject
         {
             int code = makeNameCode(name);
 
-            switch (length)
+            code = code / (20000 / length);
+
+            /*switch (length)
             {
                 case 200: code = code / 90;
                     break;
@@ -41,7 +43,7 @@ namespace HashProject
                     break;
                 default: code = code / 90;
                     break;
-            }
+            }*/
             
             //code = code / 90;
             

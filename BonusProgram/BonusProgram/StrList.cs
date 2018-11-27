@@ -49,6 +49,7 @@ namespace BonusProgram
                     
                     if (getAt(i) > name)
                     {
+                        //comps++;
                         if (i == 0)
                         {
                             Node tmp = front;
